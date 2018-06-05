@@ -76,7 +76,7 @@ objects:
         spec:
           containers:
             - name: "scdf"
-              image: "donovanmuller/spring-cloud-dataflow-server-openshift:1.2.1.RELEASE"
+              image: "donovanmuller/spring-cloud-dataflow-server-openshift:1.5.0.RELEASE"
               env:
                 - name: KUBERNETES_NAMESPACE
                   valueFrom:

@@ -15,7 +15,7 @@
 #
 
 project=${1:-scdf}
-version=${2:-v1.2.1.RELEASE}
+version=${2:-v1.5.0.RELEASE}
 
 echo "Installing OpenShift templates (${version}) into project '${project}'..."
 
